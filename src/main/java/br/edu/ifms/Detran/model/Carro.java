@@ -24,6 +24,7 @@ public class Carro implements Serializable{
 	private String marca;
 	
 	private String placa;
+	
 	@OneToMany(mappedBy = "carro")
 	private List<Multa> multas = new ArrayList<Multa>();
 	
