@@ -21,8 +21,8 @@ import br.edu.ifms.Detran.model.Infracao;
 import br.edu.ifms.Detran.service.InfracaoService;
 
 @RestController
-@RequestMapping(value = "/carro")
-public class InfracaoResource {
+@RequestMapping(value = "/infracao")
+public class InfracaoResource {	
 	
 	@Autowired
 	private InfracaoService infracao;

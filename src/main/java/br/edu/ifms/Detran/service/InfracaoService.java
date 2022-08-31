@@ -5,6 +5,7 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.stereotype.Service;
 
 import br.edu.ifms.Detran.dto.InfracaoDto;
 import br.edu.ifms.Detran.model.Infracao;
@@ -12,6 +13,7 @@ import br.edu.ifms.Detran.repository.InfracaoRepository;
 import br.edu.ifms.Detran.service.execption.DataIntegrityException;
 import br.edu.ifms.Detran.service.execption.ObjectNotFoundException;
 
+@Service
 public class InfracaoService {
 	
 	@Autowired
