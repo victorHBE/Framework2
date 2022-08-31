@@ -13,9 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Detran</name>
 	<description>Sistema de multas</description>
-	<properties>
-		<java.version>11</java.version>
-	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -46,6 +44,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
 		</dependency>
 	</dependencies>
 
