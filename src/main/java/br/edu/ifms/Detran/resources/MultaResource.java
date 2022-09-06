@@ -61,7 +61,7 @@ public class MultaResource {
 	public ResponseEntity<Void> delete(@RequestBody Carro obj,@PathVariable Integer id){
 		multa.delete(id);
 		return ResponseEntity.noContent().build();
-	}
+	} 
 		
 	@RequestMapping(method = RequestMethod.GET)
 	public ResponseEntity<List<MultaDto>> findAll() {		
